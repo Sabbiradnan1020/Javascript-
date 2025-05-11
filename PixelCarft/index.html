@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PixelCraft – Customizable Pixel Art</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎨 PixelCraft</h1>
+    <p>Click to add pixels and create your art!</p>
+  </header>
+
+  <section class="controls">
+    <label for="colorPicker">Choose Color: </label>
+    <input type="color" id="colorPicker" />
+    <label for="pixelSize">Pixel Size: </label>
+    <input type="range" id="pixelSize" min="10" max="50" value="20">
+    <button id="clearCanvasBtn">Clear Canvas</button>
+  </section>
+
+  <section class="canvas" id="canvas"></section>
+
+  <footer>
+    <p>Made with HTML, CSS, and JavaScript | &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

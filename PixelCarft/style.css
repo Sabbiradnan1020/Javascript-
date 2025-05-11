@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 30px;
+  }
+  
+  label, input {
+    margin: 10px;
+  }
+  
+  input[type="range"] {
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #005fa3;
+  }
+  
+  .canvas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    gap: 2px;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+  }
+  
+  .pixel {
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
